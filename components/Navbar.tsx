@@ -81,6 +81,15 @@ export default function Navbar() {
             <Mail className="w-4 h-4" />
           </a>
           <a
+            href={PERSONAL_INFO.resumeUrl}
+            download={PERSONAL_INFO.resumeFileName}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-semibold text-slate-200 bg-slate-800/60 border border-slate-700/60 hover:text-sky-400 hover:border-sky-500/40 transition-all hover:-translate-y-0.5"
+            title="Download Resume (PDF)"
+          >
+            <Download className="w-4 h-4" />
+            Resume
+          </a>
+          <a
             href="#contact"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-semibold text-white bg-gradient-to-r from-sky-500 to-indigo-600 hover:from-sky-400 hover:to-indigo-500 transition-all shadow-md shadow-sky-500/20 hover:shadow-sky-500/35 hover:-translate-y-0.5"
           >
@@ -112,6 +121,15 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
+            <a
+              href={PERSONAL_INFO.resumeUrl}
+              download={PERSONAL_INFO.resumeFileName}
+              onClick={() => setMobileMenuOpen(false)}
+              className="inline-flex items-center gap-2 text-base font-semibold text-sky-400 hover:text-sky-300 transition-colors py-1"
+            >
+              <Download className="w-4 h-4" />
+              Download Resume
+            </a>
           </div>
           <div className="pt-3 border-t border-slate-800 flex items-center justify-between">
             <div className="flex gap-3">

@@ -38,6 +38,8 @@ export const PERSONAL_INFO = {
   location: "Multan, Punjab, Pakistan",
   linkedin: "https://linkedin.com/in/muhammad-kashif-shabeer",
   github: "https://github.com",
+  resumeUrl: "/Muhammad_Kashif_Shabeer_FullStack_Engineer.pdf",
+  resumeFileName: "Muhammad_Kashif_Shabeer_FullStack_Engineer.pdf",
   bio: "Full-Stack Software Engineer with 4+ years of experience designing, building, and shipping production web and mobile applications end-to-end — from React/Next.js and Vue.js web dashboards to MEAN/MERN architectures and cross-platform React Native and Flutter apps on iOS and Android, backed by Node.js, Express.js, and Python/FastAPI services.",
   education: {
     degree: "Bachelor of Science in Information Technology (BS IT)",
@@ -224,7 +226,43 @@ export const FEATURED_PROJECTS: Project[] = [
     gradient: "from-amber-500/20 to-orange-500/20",
     iconName: "GraduationCap"
   },
+  {
+    id: "pricedug-mobile",
+    title: "Priced Ug",
+    subtitle: "Business Directory & Marketplace App",
+    description: "Built the companion Android app for Priced Ug, a business directory and marketplace for Uganda, letting users browse shops by category and location, filter and sort listings, and view real product pricing in UGX.",
+    type: "mobile",
+    categoryBadge: "Google Play Live",
+    tags: ["React Native", "Marketplace", "Google Play", "Geo Filtering", "REST APIs"],
+    liveUrl: "https://play.google.com/store/apps/details?id=com.pricedug.mobile",
+    buttonLabel: "View on Google Play",
+    highlights: [
+      "Category and location-based shop browsing with smart filters",
+      "Real product pricing in UGX with sortable listings",
+      "Direct call-to-business contact flow for instant enquiries"
+    ],
+    gradient: "from-lime-500/20 to-green-500/20",
+    iconName: "Store"
+  },
   // Web & Full-Stack Projects
+  {
+    id: "pricedug-web",
+    title: "Priced Ug",
+    subtitle: "Business Directory & Marketplace Website",
+    description: "Business directory and marketplace website for Uganda; lets users browse local shops by category, see real product pricing in UGX, and reach business owners directly by phone.",
+    type: "web",
+    categoryBadge: "Live Production",
+    tags: ["Next.js", "Marketplace", "Business Directory", "Tailwind CSS", "SEO Optimized"],
+    liveUrl: "https://pricedug.com/",
+    buttonLabel: "Visit PricedUg.com",
+    highlights: [
+      "Category-based local shop discovery with live UGX product pricing",
+      "Direct phone contact flow connecting buyers to business owners",
+      "SEO-optimized listing pages built for local search visibility"
+    ],
+    gradient: "from-orange-500/20 to-amber-500/20",
+    iconName: "ShoppingBag"
+  },
   {
     id: "hi-bots",
     title: "Hi-Bots",
