@@ -16,6 +16,8 @@ import {
   Activity, 
   FileSpreadsheet, 
   GraduationCap, 
+  Store, 
+  ShoppingBag, 
   ArrowUpRight 
 } from 'lucide-react';
 
@@ -28,6 +30,8 @@ const iconComponents: Record<string, React.ElementType> = {
   Bot,
   Building2,
   Truck,
+  Store,
+  ShoppingBag,
   Globe,
   CheckCircle2: Globe,
 };
