@@ -119,6 +119,15 @@ export default function Hero() {
               </a>
 
               <a
+                href={PERSONAL_INFO.resumeUrl}
+                download={PERSONAL_INFO.resumeFileName}
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-bold text-white bg-slate-900/80 hover:bg-slate-800 border border-sky-500/40 hover:border-sky-400 transition-all duration-200 hover:text-sky-300 hover:-translate-y-0.5 shadow-lg shadow-black/20"
+              >
+                <Download className="w-4 h-4 text-sky-400" />
+                <span>Download Resume</span>
+              </a>
+
+              <a
                 href="#contact"
                 className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-slate-200 bg-slate-900/80 hover:bg-slate-800 border border-slate-700/80 hover:border-sky-500/50 transition-all duration-200 hover:text-sky-300 hover:-translate-y-0.5"
               >
@@ -191,7 +200,7 @@ export default function Hero() {
                       <Smartphone className="w-4 h-4" />
                     </div>
                     <div>
-                      <div className="text-xs font-bold text-white">5+ Mobile Apps</div>
+                      <div className="text-xs font-bold text-white">6+ Mobile Apps</div>
                       <div className="text-[11px] text-slate-400">App Store & Play Store</div>
                     </div>
                   </div>
@@ -201,7 +210,7 @@ export default function Hero() {
                       <Layers className="w-4 h-4" />
                     </div>
                     <div>
-                      <div className="text-xs font-bold text-white">5+ Web Platforms</div>
+                      <div className="text-xs font-bold text-white">6+ Web Platforms</div>
                       <div className="text-[11px] text-slate-400">Next.js & Electron</div>
                     </div>
                   </div>

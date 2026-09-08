@@ -23,12 +23,12 @@ export default function Experience() {
         </div>
 
         {/* Timeline List */}
-        <div className="space-y-8 relative before:absolute before:inset-0 before:left-4 sm:before:left-8 before:w-0.5 before:bg-gradient-to-b before:from-sky-500 before:via-purple-500 before:to-slate-800">
+        <div className="space-y-8 relative before:absolute before:top-4 before:bottom-4 before:left-4 sm:before:left-8 before:-translate-x-1/2 before:w-0.5 before:bg-gradient-to-b before:from-sky-500 before:via-purple-500 before:to-slate-800">
           {WORK_EXPERIENCES.map((exp, index) => (
             <div key={index} className="relative pl-12 sm:pl-20 group">
               
               {/* Timeline Indicator Dot */}
-              <div className="absolute left-2 sm:left-6 top-1.5 -translate-x-1/2 w-5 h-5 rounded-full bg-slate-900 border-2 border-sky-400 group-hover:bg-sky-400 group-hover:scale-125 transition-all shadow-[0_0_12px_rgba(56,189,248,0.6)] flex items-center justify-center">
+              <div className="absolute left-4 sm:left-8 top-4 -translate-x-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-slate-900 border-2 border-sky-400 group-hover:bg-sky-400 group-hover:scale-125 transition-all shadow-[0_0_12px_rgba(56,189,248,0.6)] flex items-center justify-center">
                 <span className="w-1.5 h-1.5 rounded-full bg-white opacity-0 group-hover:opacity-100 transition-opacity"></span>
               </div>
 
