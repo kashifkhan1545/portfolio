@@ -34,7 +34,7 @@ export const PERSONAL_INFO = {
   title: "Full-Stack Software Engineer",
   subtitle: "Web & Mobile Specialist | React Native | Flutter | Next.js | Vue.js | MEAN & MERN | Node.js | Python/FastAPI",
   email: "kashifkhan26262@gmail.com",
-  phone: "+92 340 4931051",
+  phone: "+92 301 1424851",
   location: "Multan, Punjab, Pakistan",
   linkedin: "https://linkedin.com/in/muhammad-kashif-shabeer",
   github: "https://github.com",
