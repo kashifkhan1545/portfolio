@@ -35,8 +35,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Logo / Brand */}
         <a href="#" className="flex items-center gap-2.5 group">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 via-indigo-500 to-purple-500 flex items-center justify-center font-bold text-white shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
-            KS
+          <div className="w-10 h-10 rounded-xl overflow-hidden shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
+            <img
+              src="/image.png"
+              alt={PERSONAL_INFO.name}
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="flex flex-col">
             <span className="text-base font-bold tracking-tight text-white group-hover:text-sky-400 transition-colors">
